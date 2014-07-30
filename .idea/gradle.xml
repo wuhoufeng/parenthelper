@@ -8,8 +8,8 @@
         <option name="gradleHome" value="D:/gradle-1.11" />
         <option name="modules">
           <set>
-            <option value="D:\Documents\Downloads\ParentHelper" />
-            <option value="D:\Documents\Downloads\ParentHelper\app" />
+            <option value="D:\Documents\Downloads\parenthelper\ParentHelper" />
+            <option value="D:\Documents\Downloads\parenthelper\ParentHelper\app" />
           </set>
         </option>
       </GradleProjectSettings>
