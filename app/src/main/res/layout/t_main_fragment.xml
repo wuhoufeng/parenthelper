@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="#ffffff"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:id="@+id/container1"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="#1abeff"
+                        android:layout_marginLeft="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_marginRight="5px"
+                        android:layout_marginBottom="5px"
+                        android:layout_margin="50px">
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/btn_toSecurity"
+                            android:text="安全定位"
+                            android:background="#05d2ff"
+                            android:layout_gravity="right"
+                            android:alpha="10000"
+                            android:longClickable="false"
+                            android:lines="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="#1abeff"
+                        android:layout_marginLeft="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_marginRight="5px"
+                        android:layout_marginBottom="5px"
+                        android:layout_margin="50px">
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="作业"
+                            android:id="@+id/btn_toHomeWork"
+                            android:background="#05d2ff"
+                            android:alpha="1000"
+                            android:clickable="true" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="#1abeff"
+                        android:layout_marginLeft="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_marginRight="5px"
+                        android:layout_marginBottom="5px"
+                        android:layout_margin="50px">
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="消息"
+                            android:id="@+id/btn_toMessage"
+                            android:background="#05d2ff"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_marginRight="5px"
+                        android:layout_marginBottom="5px"
+                        android:layout_margin="50px"
+                        android:background="#1abeff">
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="IM"
+                            android:id="@+id/btn_toIM"
+                            android:background="#05d2ff"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="#1abeff"
+                        android:layout_marginLeft="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_marginRight="5px"
+                        android:layout_marginBottom="5px"
+                        android:layout_margin="50px">
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="leave"
+                            android:id="@+id/btn_button5"
+                            android:background="#05d2ff"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="#1abeff"
+                        android:layout_marginLeft="5px"
+                        android:layout_marginTop="5px"
+                        android:layout_marginRight="5px"
+                        android:layout_marginBottom="5px"
+                        android:layout_margin="50px">
+
+                        <Button
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="home"
+                            android:id="@+id/btn_button6"
+                            android:background="#05d2ff"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
